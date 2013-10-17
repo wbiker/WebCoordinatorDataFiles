@@ -6,17 +6,6 @@ $Testruns = {
                                                             runorder => 25,
                                                             tsids    => [
                                                                           '{BFCA35B3-1B83-4CAF-8784-0581A82E97AD}',
-                                                                          '{D8A01262-FBF3-4CA2-8F59-5F986B6ABA2F}',
-                                                                          '{163D86E4-38F8-483D-9D11-0E207C4E76BE}',
-                                                                          '{E4AF3570-D6DC-4FCB-A168-336D86B2F3B7}',
-                                                                          '{49F2C731-DF67-42E8-A0D1-C3985E27874B}',
-                                                                          '{4BF997D6-2037-4A9D-BAF0-0F3A779DB8F7}',
-                                                                          '{60EC0FE9-9982-4B1C-AF12-92B7232146B7}',
-                                                                          '{C4B0863F-5DA7-45AC-0A57-054A659D7CFA}',
-                                                                          '{AF356770-A3D5-41ED-B863-0416891CFAF5}',
-                                                                          '{C0D0F2DA-1F48-4CFC-96D2-9FDA222C46B8}',
-                                                                          '{92F82D79-71D7-4BED-958D-039E1CD517AC}',
-                                                                          '{ED97367D-C1F0-4515-B923-B18D29614E89}',
                                                                           '{E2ABBEAC-D94C-450D-9893-FEB54D88BE19}',
                                                                           '{C0D0F2DA-1F48-4CFC-96D2-9FDA222C46B8}',
                                                                           '{078A65D5-F40B-4286-9A2B-626267B4B0FB}'
