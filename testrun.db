@@ -1,10 +1,12 @@
-#ID38 testtypeid38 tsid38 active1 runorder4 teamspace38 changedby38 changedon23
 $Testruns = {
               "{0099185D-EEFD-4B0C-0BB3-286BF23ED096}" => {
                                                             active   => 1,
                                                             name     => 'RegTest: Antivirus McAfee',
                                                             runorder => 25,
                                                             tsids    => [
+                                                                          '{BFCA35B3-1B83-4CAF-8784-0581A82E97AD}',
+                                                                          '{E2ABBEAC-D94C-450D-9893-FEB54D88BE19}',
+                                                                          '{C0D0F2DA-1F48-4CFC-96D2-9FDA222C46B8}',
                                                                           '{078A65D5-F40B-4286-9A2B-626267B4B0FB}'
                                                                         ]
                                                           },
