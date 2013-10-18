@@ -1,4 +1,9 @@
 $testruns = {
+              "8c890e8d90b54c5904e3e58b42c16e9e"       => {
+                                                            "8c890e8d90b54c5904e3e58b42c16e9e"
+                                                                                => '8c890e8d90b54c5904e3e58b42c16e9e',
+                                                            name                => 'NTR'
+                                                          },
               "{0099185D-EEFD-4B0C-0BB3-286BF23ED096}" => {
                                                             active   => 1,
                                                             id       => '{0099185D-EEFD-4B0C-0BB3-286BF23ED096}',
