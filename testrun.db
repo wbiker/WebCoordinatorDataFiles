@@ -1150,6 +1150,10 @@ $testruns = {
                                                                           '{CA65427D-A83C-4EB6-A7FC-05483DE79646}'
                                                                         ]
                                                           },
+              bda0e6c9da0a105f3d10116cc7ba9be8         => {
+                                                            id   => 'bda0e6c9da0a105f3d10116cc7ba9be8',
+                                                            name => 'WOLFI'
+                                                          },
               "{C20C5327-64B3-4950-ADD9-6F2E36BCD52E}" => {
                                                             active   => 1,
                                                             id       => '{C20C5327-64B3-4950-ADD9-6F2E36BCD52E}',
