@@ -4785,20 +4785,6 @@ $testcases = {
                                                                        => 'S',
                                                              timeout   => 20
                                                            },
-               "{9B9F31A8-51C1-427A-AE92-DD86D58451E9}" => {
-                                                             description
-                                                                       => 'Description',
-                                                             execute   => '$TCPATH$\\VixWrapper.exe',
-                                                             id        => '{9B9F31A8-51C1-427A-AE92-DD86D58451E9}',
-                                                             isnecessary
-                                                                       => 0,
-                                                             name      => 'Install MSI Silently (servers)',
-                                                             precondition
-                                                                       => 'msi that shouldbe installed must be copied to C:\\TA\\msis',
-                                                             productrelevant
-                                                                       => 'A',
-                                                             timeout   => 10
-                                                           },
                "{9B9F89ED-7823-44F4-0A15-41FF18185822}" => {
                                                              description
                                                                        => 'Description',
