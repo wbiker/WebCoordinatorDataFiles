@@ -1043,7 +1043,10 @@ $testruns = {
               bda0e6c9da0a105f3d10116cc7ba9be8         => {
                                                             id    => 'bda0e6c9da0a105f3d10116cc7ba9be8',
                                                             name  => 'WOLFI',
-                                                            tsids => {}
+                                                            tsids => {
+                                                                       "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => 1,
+                                                                       "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1
+                                                                     }
                                                           },
               "{C20C5327-64B3-4950-ADD9-6F2E36BCD52E}" => {
                                                             active   => 1,
