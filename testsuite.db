@@ -5,13 +5,9 @@ $testsuites = {
                                                               id    => '524a5d698ea57ac5776929fd55f809df',
                                                               name  => 'wolfiTS',
                                                               tcids => {
-                                                                         "{164EE3D9-64DF-4F4F-A5D2-027D95D9DF90}"
-                                                                                                    => 1,
-                                                                         "{5188B117-E3E0-4959-0BB8-3EE4E6F19B58}"
-                                                                                                    => 1,
-                                                                         "HASH(0x5ab6830)"          => 1,
-                                                                         "HASH(0x5accdc8)"          => 1,
-                                                                         "HASH(0x5accf70)"          => 1
+                                                                         "{164EE3D9-64DF-4F4F-A5D2-027D95D9DF90}" => 1,
+                                                                         "{5188B117-E3E0-4959-0BB8-3EE4E6F19B58}" => 1,
+                                                                         "{D7E6B2EC-058C-4171-A07B-05B53750672A}" => 1
                                                                        },
                                                               tsids => { tc => 1 }
                                                             },
