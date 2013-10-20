@@ -9,10 +9,6 @@ $testruns = {
                                                             name  => 'Wolfs',
                                                             tsids => {}
                                                           },
-              ""                                       => { tsids => {
-                                                            "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => 1,
-                                                            "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1
-                                                          } },
               "{0099185D-EEFD-4B0C-0BB3-286BF23ED096}" => {
                                                             active   => 1,
                                                             id       => '{0099185D-EEFD-4B0C-0BB3-286BF23ED096}',
@@ -1103,15 +1099,7 @@ $testruns = {
                                                                        "{08CD8990-ACA8-437A-B686-721BD539C432}" => 1,
                                                                        "{163D86E4-38F8-483D-9D11-0E207C4E76BE}" => 1,
                                                                        "{6346EB74-5964-42F5-92A2-669DBAF38DC5}" => 1,
-                                                                       "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => {
-                                                                                                                     active  => 'V: $testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}',
-                                                                                                                     description
-                                                                                                                             => 0,
-                                                                                                                     id      => '{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}',
-                                                                                                                     name    => 'P664 FileShare - Client Test Run -  NTFS (E:) (TestEnv) CHECK',
-                                                                                                                     precondition
-                                                                                                                             => 0
-                                                                                                                   }
+                                                                       "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1
                                                                      }
                                                           },
               "{C20C5327-64B3-4950-ADD9-6F2E36BCD52E}" => {
@@ -1440,4 +1428,3 @@ $testruns = {
                                                                         }
                                                           }
             };
-$testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}{active} = $testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"};

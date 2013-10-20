@@ -1337,7 +1337,6 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => {
-                                                              active  => 'V: $testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"}',
                                                               description
                                                                       => 0,
                                                               id      => '{A08D4FB5-6672-43D5-95FF-D323A4A74414}',
@@ -1371,7 +1370,6 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => {
-                                                              active  => 'V: $testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}',
                                                               description
                                                                       => 0,
                                                               id      => '{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}',
@@ -2249,5 +2247,3 @@ $testsuites = {
                                                                       => 0
                                                             }
               };
-$testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"}{active} = $testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"};
-$testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}{active} = $testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"};
