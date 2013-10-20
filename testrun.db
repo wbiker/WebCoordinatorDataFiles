@@ -1041,11 +1041,6 @@ $testruns = {
                                                                           "{FD453E66-37D9-4BFC-AFE0-05DCC0DFA370}" => 1
                                                                         }
                                                           },
-              addtestsuites                            => { tsids => {
-                                                            "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => 1,
-                                                            "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1,
-                                                            "{CA65427D-A83C-4EB6-A7FC-05483DE79646}" => 1
-                                                          } },
               "{B00A8B3E-E4D1-4FBA-0904-8E3D21DC1C36}" => {
                                                             active   => 1,
                                                             id       => '{B00A8B3E-E4D1-4FBA-0904-8E3D21DC1C36}',
