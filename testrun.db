@@ -4,6 +4,10 @@ $testruns = {
                                                             name  => 'NTR',
                                                             tsids => {}
                                                           },
+              "8d1f261d0595a6724f6e56e0fe3cbc2e"       => {
+                                                            id   => '8d1f261d0595a6724f6e56e0fe3cbc2e',
+                                                            name => 'New testrun for testing session'
+                                                          },
               "53eef02f27d00bbe16c4b146f79b4e10"       => {
                                                             id   => '53eef02f27d00bbe16c4b146f79b4e10',
                                                             name => 'New testrun for testing session'
