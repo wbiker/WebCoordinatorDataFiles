@@ -3,7 +3,8 @@ $testsuites = {
                                                               description
                                                                      => 'test test suite',
                                                               id     => '524a5d698ea57ac5776929fd55f809df',
-                                                              name   => 'wolfiTS'
+                                                              name   => 'wolfiTS',
+                                                              tcids  => { "HASH(0x5accdc8)" => 1 }
                                                             },
                 "{016673A9-B8AA-4AAF-BC20-01C76DDE57E9}" => {
                                                               description
