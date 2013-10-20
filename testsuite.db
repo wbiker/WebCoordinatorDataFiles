@@ -6,6 +6,7 @@ $testsuites = {
                                                               name  => 'wolfiTS',
                                                               tcids => {
                                                                          "{164EE3D9-64DF-4F4F-A5D2-027D95D9DF90}" => 1,
+                                                                         "{3976393F-B528-4A07-AAB1-9CE3CEF3333E}" => 1,
                                                                          "{5188B117-E3E0-4959-0BB8-3EE4E6F19B58}" => 1,
                                                                          "{9B9F31A8-51C1-427A-AE92-DD86D58451E9}" => 1,
                                                                          "{D7E6B2EC-058C-4171-A07B-05B53750672A}" => 1
