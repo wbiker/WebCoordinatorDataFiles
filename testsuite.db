@@ -6,7 +6,8 @@ $testsuites = {
                                                               name   => 'wolfiTS',
                                                               tcids  => {
                                                                           "HASH(0x5ab6830)" => 1,
-                                                                          "HASH(0x5accdc8)" => 1
+                                                                          "HASH(0x5accdc8)" => 1,
+                                                                          "HASH(0x5accf70)" => 1
                                                                         }
                                                             },
                 "{016673A9-B8AA-4AAF-BC20-01C76DDE57E9}" => {
