@@ -9,6 +9,10 @@ $testruns = {
                                                             name  => 'Wolfs',
                                                             tsids => {}
                                                           },
+              ""                                       => { tsids => {
+                                                            "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => 1,
+                                                            "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1
+                                                          } },
               "{0099185D-EEFD-4B0C-0BB3-286BF23ED096}" => {
                                                             active   => 1,
                                                             id       => '{0099185D-EEFD-4B0C-0BB3-286BF23ED096}',
