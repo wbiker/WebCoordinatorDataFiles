@@ -24,6 +24,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{02FFD193-BD52-4DC3-B2AF-C83B824BAE49}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{02FFD193-BD52-4DC3-B2AF-C83B824BAE49}',
@@ -176,6 +177,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{0FAAD30C-E03C-474B-0BF2-47232B73F9E1}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{0FAAD30C-E03C-474B-0BF2-47232B73F9E1}',
@@ -321,6 +323,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{23DF54C4-BA65-4085-8D46-B7FB7322FF24}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{23DF54C4-BA65-4085-8D46-B7FB7322FF24}',
@@ -749,6 +752,7 @@ $testsuites = {
                                                                       => "Revert To Snapshot ReadyToTA\r\nand local administrator is logged in."
                                                             },
                 "{563ACCC1-C63A-4CC2-B9C7-0FB7C5953E54}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{563ACCC1-C63A-4CC2-B9C7-0FB7C5953E54}',
@@ -1118,6 +1122,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{84262A89-3699-49C0-B96D-EFB9F315E5EA}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 'disabled the zip test scripts.',
                                                               id      => '{84262A89-3699-49C0-B96D-EFB9F315E5EA}',
@@ -1332,6 +1337,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => {
+                                                              active  => 'V: $testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"}',
                                                               description
                                                                       => 0,
                                                               id      => '{A08D4FB5-6672-43D5-95FF-D323A4A74414}',
@@ -1365,6 +1371,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => {
+                                                              active  => 'V: $testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}',
                                                               description
                                                                       => 0,
                                                               id      => '{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}',
@@ -1477,6 +1484,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{AEF99B69-1CC4-4970-846D-0C2BB78DC97F}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{AEF99B69-1CC4-4970-846D-0C2BB78DC97F}',
@@ -2060,6 +2068,7 @@ $testsuites = {
                                                                       => 0
                                                             },
                 "{EE6B282D-D00B-4002-92F6-73F1AC209237}" => {
+                                                              active  => 1,
                                                               description
                                                                       => 0,
                                                               id      => '{EE6B282D-D00B-4002-92F6-73F1AC209237}',
@@ -2240,3 +2249,5 @@ $testsuites = {
                                                                       => 0
                                                             }
               };
+$testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"}{active} = $testsuites->{"{A08D4FB5-6672-43D5-95FF-D323A4A74414}"};
+$testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}{active} = $testsuites->{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"};

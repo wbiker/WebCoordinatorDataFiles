@@ -183,13 +183,69 @@ $testruns = {
                                                             name     => 'RegTest: Antivirus Forefront Tests',
                                                             runorder => 40,
                                                             tsids    => {
-                                                                          "{02FFD193-BD52-4DC3-B2AF-C83B824BAE49}" => 1,
-                                                                          "{0FAAD30C-E03C-474B-0BF2-47232B73F9E1}" => 1,
-                                                                          "{23DF54C4-BA65-4085-8D46-B7FB7322FF24}" => 1,
-                                                                          "{563ACCC1-C63A-4CC2-B9C7-0FB7C5953E54}" => 1,
-                                                                          "{84262A89-3699-49C0-B96D-EFB9F315E5EA}" => 1,
-                                                                          "{AEF99B69-1CC4-4970-846D-0C2BB78DC97F}" => 1,
-                                                                          "{EE6B282D-D00B-4002-92F6-73F1AC209237}" => 1
+                                                                          "{02FFD193-BD52-4DC3-B2AF-C83B824BAE49}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{02FFD193-BD52-4DC3-B2AF-C83B824BAE49}',
+                                                                                                                        name    => 'AutWrapper: Use the SGFileEncWizard.exe to initial encrypt FileShare partitions',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{0FAAD30C-E03C-474B-0BF2-47232B73F9E1}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{0FAAD30C-E03C-474B-0BF2-47232B73F9E1}',
+                                                                                                                        name    => 'SGN: client-server synchronization within a given timespan VIX',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{23DF54C4-BA65-4085-8D46-B7FB7322FF24}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{23DF54C4-BA65-4085-8D46-B7FB7322FF24}',
+                                                                                                                        name    => 'Vmware: Revert And Start Snapshot',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{563ACCC1-C63A-4CC2-B9C7-0FB7C5953E54}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{563ACCC1-C63A-4CC2-B9C7-0FB7C5953E54}',
+                                                                                                                        name    => 'USB2VMware',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{84262A89-3699-49C0-B96D-EFB9F315E5EA}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 'disabled the zip test scripts.',
+                                                                                                                        id      => '{84262A89-3699-49C0-B96D-EFB9F315E5EA}',
+                                                                                                                        name    => 'Antivirus Tests',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{AEF99B69-1CC4-4970-846D-0C2BB78DC97F}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{AEF99B69-1CC4-4970-846D-0C2BB78DC97F}',
+                                                                                                                        name    => 'Attach USB Device VIX',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      },
+                                                                          "{EE6B282D-D00B-4002-92F6-73F1AC209237}" => {
+                                                                                                                        active  => 1,
+                                                                                                                        description
+                                                                                                                                => 0,
+                                                                                                                        id      => '{EE6B282D-D00B-4002-92F6-73F1AC209237}',
+                                                                                                                        name    => 'Antivirus Import and Assign Policies',
+                                                                                                                        precondition
+                                                                                                                                => 0
+                                                                                                                      }
                                                                         }
                                                           },
               "{1A60472E-929F-4B3B-B538-9718657E947C}" => {
@@ -1043,10 +1099,15 @@ $testruns = {
               bda0e6c9da0a105f3d10116cc7ba9be8         => {
                                                             id    => 'bda0e6c9da0a105f3d10116cc7ba9be8',
                                                             name  => 'WOLFI',
-                                                            tsids => {
-                                                                       "{A08D4FB5-6672-43D5-95FF-D323A4A74414}" => 1,
-                                                                       "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => 1
-                                                                     }
+                                                            tsids => { "{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}" => {
+                                                                       active  => 'V: $testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}',
+                                                                       description
+                                                                               => 0,
+                                                                       id      => '{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}',
+                                                                       name    => 'P664 FileShare - Client Test Run -  NTFS (E:) (TestEnv) CHECK',
+                                                                       precondition
+                                                                               => 0
+                                                                     } }
                                                           },
               "{C20C5327-64B3-4950-ADD9-6F2E36BCD52E}" => {
                                                             active   => 1,
@@ -1374,3 +1435,4 @@ $testruns = {
                                                                         }
                                                           }
             };
+$testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"}{active} = $testruns->{bda0e6c9da0a105f3d10116cc7ba9be8}{tsids}{"{A337AC5B-AFD8-4033-BD12-10BF2ADCBCDE}"};
